@@ -32,7 +32,10 @@
   font-size:100%;
   font-weight:normal;
 }
-.sticky ul,li{
+.sticky ul{
+  list-style:none;
+}
+.sticky li{
   list-style:none;
 }
 .sticky ul{
@@ -95,7 +98,17 @@
   position:relative;
   top:-10px;
 }
-.sticky ul li a:hover,ul li a:focus{
+.sticky ul li a:hover{
+  box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
+  -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
+  -webkit-transform: scale(1.25);
+  -moz-transform: scale(1.25);
+  -o-transform: scale(1.25);
+  position:relative;
+  z-index:5;
+}
+.sticky ul li a:focus{
   box-shadow:10px 10px 7px rgba(0,0,0,.7);
   -moz-box-shadow:10px 10px 7px rgba(0,0,0,.7);
   -webkit-box-shadow: 10px 10px 7px rgba(0,0,0,.7);
@@ -589,7 +602,7 @@
 <section id="sponsers" class="reviews">
 	<div class="container">
 		<div class="row">	
-			<div class="col-sm-6 text-left">
+			<div class="col-sm-6  col-md-offset-5 text-left">
 				<h2 class="heading">Sponsers</h2>
 			</div>
 			<div class="col-sm-6 text-right text-left-mobile">
