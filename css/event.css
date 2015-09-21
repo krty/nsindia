@@ -26,14 +26,15 @@ ul{
 	list-style: none;
 
 }
-.img-padding{
-	margin-top:-11% !important;
+.padd{
+	margin-top:4% !important;
 	margin-bottom:0% !important;
+	color:grey !important;
 }
 .clr{
 	color:#F0727D!important
 }
-a:hover{
+.sticky a:hover{
 	color:white!important;
 }
 .box-border{
