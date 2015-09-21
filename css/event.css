@@ -26,11 +26,15 @@ ul{
 	list-style: none;
 
 }
+.img-padding{
+	margin-top:-11% !important;
+	margin-bottom:0% !important;
+}
 .clr{
 	color:#F0727D!important
 }
 a:hover{
-	color:#428bca!important
+	color:white!important;
 }
 .box-border{
 	border-radius: 300px 30px 30px 50px !important;
